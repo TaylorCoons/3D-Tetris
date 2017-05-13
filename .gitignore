@@ -1,0 +1,12 @@
+# Project Sources #
+###################
+*.vcxproj
+*.filters
+
+# Debug Files #
+###############
+**/Debug
+
+# Executibles #
+###############
+*.exe
