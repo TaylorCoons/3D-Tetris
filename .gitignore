@@ -2,6 +2,7 @@
 ###################
 *.vcxproj
 *.filters
+*.user
 
 # Debug Files #
 ###############
