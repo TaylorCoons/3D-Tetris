@@ -1,10 +1,20 @@
 #pragma once
-
 // Windows includes
-#define UNICODE
-#define WIN32_LEAN_AND_MEAN
-#include <Windows.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers.
+#endif
 
-// Utility helper functions
+#include <windows.h>
+
+// Direct3D 12 includes
+#include <d3d12.h>
+#include <dxgi1_4.h>
+#include <D3Dcompiler.h>
+#include <DirectXMath.h>
+
+// System includes
+#include <string>
+#include <wrl.h>
+#include <shellapi.h>
+
 #include "Utility.h"
-
