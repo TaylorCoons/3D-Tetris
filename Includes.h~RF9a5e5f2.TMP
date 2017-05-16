@@ -19,8 +19,4 @@
 
 #include "Utility.h"
 
-// Platform x64
-// Configuration Manager->General->Version Platform 10.0.14393.0
-// "							"->Version 10
-// "							"->Character Set->Use Unicode Character Set
-
+// Configuration Manager->General->10.0.14393.0
