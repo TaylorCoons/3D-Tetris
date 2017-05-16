@@ -8,6 +8,15 @@
 #define ERRORBOX(text, title) MessageBoxW(NULL, text, title, MB_OK | MB_ICONWARNING);
 
 namespace util {
+	// Safe release IUnknown classes
+	template<typename T>
+	void SafeRelease(T* inter) {
+		if (inter) {
+			inter->Release();
+			inter = nullptr;
+		}
+	}
+
 	// Safe delete dynamic memory
 	template<typename T>
 	void SafeDelete(T* ptr) {

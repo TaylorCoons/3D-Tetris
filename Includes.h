@@ -11,6 +11,10 @@
 #include <dxgi1_4.h>
 #include <D3Dcompiler.h>
 #include <DirectXMath.h>
+#include <d3dx12.h>
+
+#pragma comment(lib, "Dxgi.lib")
+#pragma comment(lib, "D3D12.lib")
 
 // System includes
 #include <string>
@@ -18,6 +22,7 @@
 #include <shellapi.h>
 
 #include "Utility.h"
+
 
 // Platform x64
 // Configuration Manager->General->Version Platform 10.0.14393.0
