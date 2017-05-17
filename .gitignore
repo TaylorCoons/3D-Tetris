@@ -11,3 +11,7 @@
 # Executibles #
 ###############
 *.exe
+
+# Temp Files #
+##############
+*.TMP
