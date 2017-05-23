@@ -43,6 +43,8 @@ public:
 	bool UpdatePipeline();
 	// Render frame
 	bool Render();
+	// Message loop
+	int MessageLoop();
 	// Cleanup Direct3D
 	void Cleanup();
 	// Wait for GPU to finish previous frame
